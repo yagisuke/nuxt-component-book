@@ -15,19 +15,21 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "nuxt": "^1.0.0"
+    "node-sass": "^4.9.3",
+    "nuxt": "^1.0.0",
+    "sass-loader": "^7.1.0"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.15.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0",
-    "@storybook/vue": "^3.4.10",
     "@storybook/addon-actions": "^3.4.10",
     "@storybook/addon-links": "^3.4.10",
     "@storybook/addons": "^3.4.10",
+    "@storybook/vue": "^3.4.10",
     "babel-core": "^6.26.3",
-    "babel-preset-vue": "^2.0.2"
+    "babel-eslint": "^8.2.1",
+    "babel-preset-vue": "^2.0.2",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
   }
 }
